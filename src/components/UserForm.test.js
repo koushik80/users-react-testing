@@ -19,7 +19,6 @@ test('it shows two inputs and a button', () => {
 test('it calls onUserAdd when the form is submitted', () => {
   const mock = jest.fn();
 
-
   // Try to render the component
   render(<UserForm onUserAdd={mock} />);
 
