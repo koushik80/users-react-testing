@@ -2,3 +2,10 @@ Matchers:
 
 1. jestjs.io/docs/expect
 2. github.com/testing-library/jest-dom#custom-matches
+
+
+command for notebook[stephan]:
+
+npx rtl-book serve roles-notes.js
+
+open@browser: http://localhost:4005/
