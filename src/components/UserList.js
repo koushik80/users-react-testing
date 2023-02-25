@@ -1,4 +1,3 @@
-
 const UserList = ({ users }) => {
   const renderedUsers = users.map((user) => {
     return <tr key={user.name}>

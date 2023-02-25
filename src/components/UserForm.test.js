@@ -57,9 +57,9 @@ test('empties the two inputs when form is submitted', () => {
   const button = screen.getByRole('button');
 
   user.click(nameInput);
-  user.keyboard('Koushik');
+  user.keyboard('');
   user.click(emailInput);
-  user.keyboard('koushik@yml.com');
+  user.keyboard('');
 
   user.click(button);
 

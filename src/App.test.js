@@ -20,8 +20,8 @@ test('can receive a new user and show it on a list', () => {
 
   user.click(button);
 
-  const name = screen.getByRole('cell', { name: 'Koushik' });
-  const email = screen.getByRole('cell', { name: 'koushik@yml.com' });
+  const name = screen.getByRole('textbox', { name: 'Koushik' });
+  const email = screen.getByRole('textbox', { name: 'koushik@yml.com' });
 
   expect(name).toBeInTheDocument();
   expect(email).toBeInTheDocument();
