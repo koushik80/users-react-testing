@@ -8,5 +8,6 @@ command for cheat-sheet notebook[stephan]:
 
 1. npx rtl-book serve roles-notes.js
 2. npx rtl-book serve query-notes.js
+3. npx rtl-book serve matcher-notes.js
 
 open@browser: http://localhost:4005/
