@@ -4,8 +4,9 @@ Matchers:
 2. github.com/testing-library/jest-dom#custom-matches
 
 
-command for notebook[stephan]:
+command for cheat-sheet notebook[stephan]:
 
-npx rtl-book serve roles-notes.js
+1. npx rtl-book serve roles-notes.js
+2. npx rtl-book serve query-notes.js
 
 open@browser: http://localhost:4005/
